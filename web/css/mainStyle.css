@@ -28,6 +28,13 @@ html
 	font-family: inconsolata;
 }
 
+span[name="accentColor"]
+{
+	margin: 0;
+	padding: 0;
+	color: #e7cb81;
+}
+
 /* Page Title */
 
 #pageTitle
@@ -36,12 +43,15 @@ html
 	margin: 2em 0 0 2em;
 }
 
-#pageTitle span[name="titleAccent"]
+/* ----------------------- */
+
+/* header */
+
+body header table
 {
-	color: #e7cb81;
+	width: 100%;
 }
 
-/* ----------------------- */
 
 /* Footer */
 
@@ -84,7 +94,7 @@ body footer
 	overflow: hidden;
 }
 
-.navBar li, .navBar span
+.navBar li, .navBar ul > span
 {
 	float: left;
 	padding-left: 1em;
