@@ -23,6 +23,10 @@
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
+
+# Directories
+Projects/Programming/C#/Unity/CEF_Unity/Library/
+Projects/Programming/C#/Unity/CEF_Unity/obj/
+Projects/Programming/C#/Unity/CEF_Unity/Temp/
