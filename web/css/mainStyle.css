@@ -1,15 +1,24 @@
+/* Fonts */
+
 @font-face
 {
 	font-family: inconsolata;
-	src: url(web/fonts/Inconsolata-Regular.ttf);
+	src: url(../fonts/Inconsolata-Regular.ttf);
 }
 
 @font-face
 {
 	font-family: inconsolata-bold;
-	src: url(web/fonts/Inconsolata-Bold.ttf);
+	src: url(../fonts/Inconsolata-Bold.ttf);
 	font-weight: bold;
 }
+
+/* ----------------------- */
+
+/* HTML Tags */
+
+/* Reset */
+html, body { height: 100%; margin: 0; padding: 0; }
 
 html
 {
@@ -19,6 +28,107 @@ html
 	font-family: inconsolata;
 }
 
-body
+/* Page Title */
+
+#pageTitle
 {
+	float: left;
+	margin: 2em 0 0 2em;
 }
+
+#pageTitle span[name="titleAccent"]
+{
+	color: #e7cb81;
+}
+
+/* ----------------------- */
+
+/* Footer */
+
+body footer
+{
+	margin-bottom: 2em;
+	text-align: center;
+	font-size: .75em;
+}
+
+/* ----------------------- */
+
+/* Custom Classes */
+
+/* Page Container */
+
+.pageContainer
+{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+/* ----------------------- */
+
+/* Nav Bar */
+
+.navBar
+{
+	float: right;
+	margin: 2em 2em 0 0;
+}
+
+.navBar ul
+{
+	margin: 0;
+	padding: 0;
+	
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.navBar li, .navBar span
+{
+	float: left;
+	padding-left: 1em;
+	
+	color: #e7cb81;
+}
+
+.navBar a:link, .navBar a:visited
+{
+	display: block;
+	
+	color: #fff;
+	
+	text-align: center;
+	text-decoration: none;
+}
+
+.navBar a:hover, .navBar a:active
+{
+	background-color: #555;
+}
+
+/* ----------------------- */
+
+/* Main Content */
+
+.mainContent
+{
+	display: table-row;
+	height: 100%;
+}
+
+/* ----------------------- */
+
+/* Main Content Body */
+
+.mainContentBody
+{
+	display: table-cell;
+}
+
+.mainContentBody
+{
+	padding: 0 2em 0 2em;
+}
+
+/* ----------------------- */
