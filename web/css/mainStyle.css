@@ -41,6 +41,7 @@ body header
 {
 	position: fixed;
 	width: 100%;
+	padding-bottom: 1em;
 	
 	background-color: #000;
 }
@@ -51,9 +52,15 @@ body header
 
 body footer
 {
-	margin-bottom: 2em;
+	position: fixed;
+	bottom: 0px;
+    left: 0px;
+    right: 0px;
+	padding: .5em 0;
+	
 	text-align: center;
 	font-size: .75em;
+	background-color: #000;
 }
 
 /* ----------------------- */
@@ -92,6 +99,12 @@ body footer
 	margin: 0;
 }
 
+.pageTitle a:link, .pageTitle a:visited
+{
+	color: #fff;
+	text-decoration: none;
+}
+
 /* ----------------------- */
 
 /* Nav Bar */
@@ -111,7 +124,7 @@ body footer
 	overflow: hidden;
 }
 
-@media screen and (max-width: 423px)
+@media screen and (max-width: 440px)
 {
 	.navBar ul
 	{
@@ -152,6 +165,11 @@ body footer
 	height: 100%;
 }
 
+.mainContent
+{
+	padding-bottom: 5em;
+}
+
 /* ----------------------- */
 
 /* Main Content Body */
@@ -163,7 +181,15 @@ body footer
 
 .mainContentBody
 {
-	padding: 8.5em 2em 0 2em;
+	padding: 6em 2em 1em 2em;
+}
+
+@media screen and (max-width: 1000px)
+{
+	.mainContentBody
+	{
+		padding-top: 8em;
+	}
 }
 
 @media screen and (max-width: 559px)
@@ -174,7 +200,7 @@ body footer
 	}
 }
 
-@media screen and (max-width: 423px)
+@media screen and (max-width: 440px)
 {
 	.mainContentBody
 	{
