@@ -1,0 +1,24 @@
+/* Custom Classes */
+
+/* Text Panel */
+
+.textPanel
+{
+    max-width: 50%;
+    margin-left: 23%;
+    padding: .1em 2em;
+    background-color: #555;
+}
+
+.textPanel h1
+{
+    font-size: 1.2em;
+    color: #0ff;
+}
+
+.textPanel p
+{
+    text-indent: 3em;
+}
+
+/* ----------------------- */
