@@ -35,6 +35,18 @@ span[name="accentColor"]
 	color: #e7cb81;
 }
 
+/* Header */
+
+body header
+{
+	position: fixed;
+	width: 100%;
+	
+	background-color: #000;
+}
+
+/* ----------------------- */
+
 /* Footer */
 
 body footer
@@ -65,6 +77,14 @@ body footer
 {
 	float: left;
 	margin: 1.3em 0 0 2em;
+	
+	text-align: center;
+}
+
+.pageTitle span
+{
+    float: right;
+    padding-right: 3.5em;
 }
 
 .pageTitle h1
@@ -89,6 +109,14 @@ body footer
 	
 	list-style-type: none;
 	overflow: hidden;
+}
+
+@media screen and (max-width: 423px)
+{
+	.navBar ul
+	{
+		margin-left: 10em;
+	}
 }
 
 .navBar li, .navBar ul > span
@@ -135,7 +163,23 @@ body footer
 
 .mainContentBody
 {
-	padding: 2em 2em 0 2em;
+	padding: 8.5em 2em 0 2em;
+}
+
+@media screen and (max-width: 559px)
+{
+	.mainContentBody
+	{
+		padding-top: 10em;
+	}
+}
+
+@media screen and (max-width: 423px)
+{
+	.mainContentBody
+	{
+		padding-top: 12em;
+	}
 }
 
 /* ----------------------- */
